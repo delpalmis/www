@@ -1,0 +1,54 @@
+@charset "iso-8859-1";
+/* CSS Document */
+body{margin:0px; background:#333; font: 12px Arial, Tahoma, Verdana; color:#FFF;}
+#carregando{background:url(../images/bg.png) repeat; width:100%; height:100%; position:absolute; top:0px; left:0px; display:inline;}
+.destino{
+	background:#FFF;
+	width:300px;
+	font:14px #000 Arial, Tahoma, Verdana;
+	-moz-border-radius: 10px;
+	border:1px #333 solid;
+	position:absolute;
+	top:35%;
+	left:31%;
+	height:105px;
+}
+div.central{background:url(../images/bgmain1.png) repeat-y bottom;}
+.central1{background:url(../images/bgmain1.png) repeat-y bottom;}
+div.all{width:100%; height:100%; position:absolute; top:0px; left:0px;}
+div.center{position:absolute; top:25%; left:18%; border:3px #1E1E1E solid;}
+div.chars{padding:5px; width:120px; float: left;}
+.td_bot{ background:url(../images/bgmain2.png) no-repeat; height:23px;} 
+a.none{text-decoration:none; color:#333;}
+a.none:hover{ color:#333; text-decoration:underline;}
+.btn{ background:url(../images/login.png) transparent; width:105px; height:33px; border:none; padding:3px; cursor:pointer;}
+.btn:hover{ background:url(../images/login_hover.png) transparent; width:105px; height:33px; border:none; padding:3px; cursor:pointer;}
+table.default{ border-collapse:collapse; background-color:#F8F8F8; color:#000; font-family: "Segoe UI"; font-weight:bold; border:1px black solid;}
+table.default tr td{border:1px #CCC solid;}
+table a{ color:#F30; text-decoration:none; }
+table a:hover{ color:#F60; text-decoration:underline; }
+
+/*Voting*/
+div.menu{
+	width:100%;
+	height:50px;
+	background:#CF9;
+	color:#000;
+	font-weight:bold;
+	padding:5px 0px 0px 0px;
+	border-bottom:3px #FFF solid;
+}
+div.menu_red{
+	width:100%;
+	height:50px;
+	background:#FC9;
+	color:#000;
+	font-weight:bold;
+	padding:5px 0px 0px 0px;
+	border-bottom:3px #FFF solid;
+}
+div.frame{
+	width:100%;
+	border:0px;
+}
+.menu img{ padding:0px 0px 0px 10px; }

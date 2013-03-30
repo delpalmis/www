@@ -1,0 +1,132 @@
+/* 
+Theme Name: Theme Light
+Theme URI: http://www.aionbrasil.net
+Author: Palmieri Andrioli Hell
+Author URI: http://www.aionbrasil.net
+Description: Theme Developer by Palmieri Andrioli Andrioli Hell. All rights reserved.
+Version: 1.5
+*/
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+
+body{
+	margin: 0px;
+	font-family: 'PT Sans', sans-serif;
+	background:url(../images/bg_l2.jpg) no-repeat #010012 top right;
+	color:#F1F1F1;
+}
+#conteudo{
+	position:absolute;
+	top:120px;
+	width: 95%;
+	height:100%;
+	left:20px;
+}
+#tmp-name{
+	position: relative;
+	padding-left: 50px;
+	text-align:left;
+	font-size:34px;
+	text-decoration:none;
+	font:bold;
+	width:auto;
+}
+#tmp-name span{
+	text-align:left;
+	font-size:16px;
+	padding-left:20px;
+}
+#menu_left{
+	background:url(../images/sprites.png) no-repeat 0px 0px;
+	display:block;
+	float:left;
+	width:40px;
+	height:60px;
+}
+#menu_right{
+	background:url(../images/sprites.png) no-repeat 0px -62px;
+	display:block;
+	float:left;
+	width:40px;
+	height:60px;
+}
+#menu_mid{
+	background:url(../images/nav-bg.png) repeat-x;
+	float:left;
+	text-align:center;
+	width:90%;
+	height:52px;
+	padding-top: 9px;
+}
+#categoria{
+	padding:5px;
+	margin:0px;
+	font:bold;
+	list-style:none;
+}
+#categoria li{
+	display:inline;
+	font:bold;
+	font-size:16px;
+	padding: 10px;
+}
+#categoria li:hover{
+	background:url(../images/nav-bg-hover.png) repeat-x;
+	height: 52px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#categoria a{
+	  color:#FFF;
+	  text-decoration:none;
+	  -webkit-transition: color 0.7s ease-out;
+	  -moz-transition:
+color 0.7s ease-out;
+	  transition: color 0.7s ease-out;
+}
+#categoria a:hover{
+	  color:#F63;
+	  text-decoration:none;
+	  filter:alpha(opacity=100);
+	  -moz-opacity: 1; 
+      -khtml-opacity: 1; 
+      opacity: 1;
+}
+#fluxo{
+	position:relative;
+	width:92%;
+	height:100%;
+	float:left;
+	left: 40px;
+	top: -12px;
+}
+#fluxo1{
+	position:relative;
+	width:98%;
+	height:100%;
+	float:left;
+	background:url(../images/new_bg.png) repeat;
+}
+#fluxo2{
+	position:relative;
+	width:99%;
+	height:100%;
+	float:left;
+	left: 6px;
+	background:#3d3d4b;
+}
+#fluxo3{
+	position:relative;
+	width:99%;
+	height:100%;
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+	margin-bottom:1px;
+	background:#f1f1f1;
+	color:#000000;
+}
+
+
