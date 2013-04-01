@@ -3,6 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="includes/style.css" type="text/css" rel="stylesheet" />
+<link href="../../tmp-content/tmp-includes/tmp-plugins/nivo-slider/nivo-slider.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../tmp-content/tmp-includes/tmp-plugins/nivo-slider/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+</script>
 <title>[$title]</title>
 </head>
 
@@ -28,9 +36,20 @@
             <div id="fluxo">
             	<div id="fluxo1">
                 	<div id="fluxo2">
-                    		<div id="fluxo3">
+                    		<div id="fluxo3"><div class="slider-wrapper">
+    <div id="slider" class="nivoSlider">
+        <img src="images/nemo.jpg" alt="" />
+        <a href="http://dev7studios.com"><img src="images/toystory.jpg" alt="" title="#htmlcaption" /></a>
+        <img src="images/up.jpg" alt="" title="This is an example of a caption" />
+        <img src="images/walle.jpg" alt="" />
+    </div>
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>    <div id="fluid">Aqui Fica o Texto</div>
+    <div id="contaneir">Aqui fica o Menu</div>
 
-				</div>
+                            </div>
 			</div>
 		</div>
 	</div>

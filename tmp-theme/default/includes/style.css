@@ -128,5 +128,17 @@ color 0.7s ease-out;
 	background:#f1f1f1;
 	color:#000000;
 }
-
-
+#fluid{
+	width:80%;
+	float:left;
+	position:relative;
+	left:15px;
+	top: 20px;
+}
+#contaneir{
+	width:20%;
+	float:left;
+	position:relative;
+	left:5px;
+	top:20px;
+}
