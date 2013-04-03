@@ -10,11 +10,28 @@
     $(window).load(function() {
         $('#slider').nivoSlider();
     });
+	$(document).ready(function(){
+ 
+    $('input[type=text]').focus(function() {
+        if($(this).val() == 'Usuário...') $(this).val(''); $(this).addClass('textform1');
+    }).blur(function() {
+        if( $(this).val() == '') $(this).val('Usuário...'); $(this).addClass('textform');
+    });
+});
+	$(document).ready(function(){
+ 
+    $('input[type=text]').focus(function() {
+        if($(this).val() == 'Senha...') $(this).val(''); $(this).addClass('textform1');
+    }).blur(function() {
+        if( $(this).val() == '') $(this).val('Senha...'); $(this).addClass('textform');
+    });
+});
 </script>
-<title>[$title]</title>
+<title>Teste Server</title>
 </head>
 
 <body>
+<div id="ana"></div>
 	<div id="conteudo">
   		<div id="tmp-name">
   			<em>Nome do Servidor!</em><span>Aqui ficara a descrição do servidor.</span>
@@ -46,8 +63,18 @@
 </div>
 <div id="htmlcaption" class="nivo-html-caption">
     <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-</div>    <div id="fluid">Aqui Fica o Texto</div>
-    <div id="contaneir">Aqui fica o Menu</div>
+</div>    <div id="fluid"><div id="news"><p><em>Notícias</em></p></div>Aqui vai Ficar o Conteudozinho<br />
+<br />
+Para a página de Lineagezinha<br />
+<br />
+Achou legal<br />
+Fui eu Que.... Fiz... só to testando o paragrafo para ver se ele não vai acabar com o layout do site mermo!!! ;P<br />
+<br />
+Poxa vida einh WOW!!! E que eu naum tinha nada para escrever em então eu fui escrevendo o que foi vindo na mente e sim, eu estava com preguiça de procurar o site que gera o Lorem Ipsum para gerar o coloca-lo aqui para testar, então por isso eu escrevo.<br />
+<br />
+kkkkkkkkkkkk</div>
+    <div id="contaneir"><div id="login"><form action="" method="post" name="loginform" id="loginform"><span>Login / Cadastre-se</span><br /><span>&nbsp;&nbsp;&nbsp;Login: <input name="login" type="text" value="Usuário..." class="textform" size="20" maxlength="32" /></span><br /><span>&nbsp;&nbsp;Senha: <input name="senha" type="password" value="Senha..." class="textform" size="20" maxlength="32" /></span><br /><span id="btn_login">Lembre-se? / Cadastre-se <input name="envia" class="button_l" type="submit" value="Login" /></span></form></div>
+    </div>
 
                             </div>
 			</div>
