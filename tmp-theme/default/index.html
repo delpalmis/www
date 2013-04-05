@@ -4,29 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="includes/style.css" type="text/css" rel="stylesheet" />
 <link href="../../tmp-content/tmp-includes/tmp-plugins/nivo-slider/nivo-slider.css" type="text/css" rel="stylesheet" media="screen" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="includes/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="../../tmp-content/tmp-includes/tmp-plugins/nivo-slider/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-	$(document).ready(function(){
- 
-    $('input[type=text]').focus(function() {
-        if($(this).val() == 'Usuário...') $(this).val(''); $(this).addClass('textform1');
-    }).blur(function() {
-        if( $(this).val() == '') $(this).val('Usuário...'); $(this).addClass('textform');
-    });
-});
-	$(document).ready(function(){
- 
-    $('input[type=text]').focus(function() {
-        if($(this).val() == 'Senha...') $(this).val(''); $(this).addClass('textform1');
-    }).blur(function() {
-        if( $(this).val() == '') $(this).val('Senha...'); $(this).addClass('textform');
-    });
-});
-</script>
+<script type="text/javascript" src="includes/custom.js"></script>
 <title>Teste Server</title>
 </head>
 
@@ -63,7 +43,7 @@
 </div>
 <div id="htmlcaption" class="nivo-html-caption">
     <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-</div>    <div id="fluid"><div id="news"><p><em>Notícias</em></p></div>Aqui vai Ficar o Conteudozinho<br />
+</div>    <div id="fluid"><div id="news"><p><em><strong>Notícias</strong></em></p></div><div class="misc">Aqui vai Ficar o Conteudozinho<br />
 <br />
 Para a página de Lineagezinha<br />
 <br />
@@ -73,11 +53,18 @@ Fui eu Que.... Fiz... só to testando o paragrafo para ver se ele não vai acaba
 Poxa vida einh WOW!!! E que eu naum tinha nada para escrever em então eu fui escrevendo o que foi vindo na mente e sim, eu estava com preguiça de procurar o site que gera o Lorem Ipsum para gerar o coloca-lo aqui para testar, então por isso eu escrevo.<br />
 <br />
 kkkkkkkkkkkk</div>
-    <div id="contaneir"><div id="login"><form action="" method="post" name="loginform" id="loginform"><span>Login / Cadastre-se</span><br /><span>&nbsp;&nbsp;&nbsp;Login: <input name="login" type="text" value="Usuário..." class="textform" size="20" maxlength="32" /></span><br /><span>&nbsp;&nbsp;Senha: <input name="senha" type="password" value="Senha..." class="textform" size="20" maxlength="32" /></span><br /><span id="btn_login">Lembre-se? / Cadastre-se <input name="envia" class="button_l" type="submit" value="Login" /></span></form></div>
+</div>
+    <div id="contaneir"><div id="login">
+        <div id="ctname">
+          <p>Login</p>
+        </div>
+        <div class="misc">
+        <form action="" method="post" name="loginform" id="loginform">
+      <br /><span>&nbsp;&nbsp;&nbsp;Login: <input name="login" type="text" value="Usuário..." class="textform" size="20" maxlength="32" /></span><br /><span>&nbsp;&nbsp;Senha: <input name="senha" type="password" value="Senha..." class="textform" size="20" maxlength="32" /></span><br /><span id="btn_login">Lembre-se? / Cadastre-se <input name="envia" class="button_l" type="submit" value="Login" /></span></form></div></div>
     </div>
-
-                            </div>
-			</div>
+    	</div>
+            </div>
+            <div id="footer"><p>Tema desenvolvido por Palmiéri Andrioli Hell - Todos os direitos reservados a [$servername] - Copyright 2013-2014</p></div>
 		</div>
 	</div>
 	</div>

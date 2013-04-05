@@ -132,10 +132,11 @@ color 0.7s ease-out;
 	width:72%;
 	float:left;
 	position:relative;
-	left:15px;
-	top:30px;
+	background:#FFFFFF;
+	left:8px;
+	top:45px;
 	padding: 5px;
-	border:1px solid #CCC;
+	border:3px solid #CCC;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -144,13 +145,20 @@ color 0.7s ease-out;
 	width:25%;
 	float:left;
 	position:relative;
-	left:15px;
-	top:30px;
+	left:10px;
+	top:45px;
 	height: auto;
+}
+.misc{
+	top: -50px;
+	position:relative;
+	height:auto;
+	width:auto;
 }
 #login{
 	padding:5px;
-	border:1px #CCCCCC solid;
+	border:3px #CCCCCC solid;
+	background:#FFFFFF;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -158,7 +166,21 @@ color 0.7s ease-out;
 	margin-left:10px;
 }
 #login span{
-	margin-left: 25px;
+	margin-left: 20px;
+}
+#ctname{
+	background:url(../images/sprites.png) no-repeat 0 -371px;
+	width: 120px;
+	height: 41px;
+	position:relative;
+	top: -40px;
+}
+#ctname p{
+	color: #F1F1F1;
+	padding-top:5px;
+	text-align:center;
+	margin-left: -5px;
+	font-family: 'Fjalla One', sans-serif;
 }
 .button_l{
 	background:url(../images/form-login.png) no-repeat -124px -36px;
@@ -192,7 +214,7 @@ color 0.7s ease-out;
 	color:#333333;
 }
 #login input{
-	margin-left:30px;
+	margin-left:20px;
 	padding-left:5px;
 }
 #ana{
@@ -206,19 +228,36 @@ color 0.7s ease-out;
 	z-index:99999;
 }
 #news{
-	background:url(../images/sprites.png) no-repeat 0 -371px;
-	width: 120px;
-	height: 41px;
+	background:url(../images/news.png) no-repeat;
+	width: 162px;
+	height: 63px;
 	position:relative;
 	color:#f1f1f1;
-	font-size:18px;
-	top: -40px;
+	top: -60px;
 	left: 30px;
 }
 #news p{
-	margin-left:27px;
-	padding-top: 4px;
+	text-align:center;
+	margin-left: -5px;
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 13px;
+	font-size: 24px;
 	font:bold;
+}
+#footer{
+	background:url(../images/nav-bg.png) repeat-x;
+	position:absolute;
+	bottom:-20px;
+	width:100%;
+	height:40px;
+}
+#footer p{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:0px;
+  	font: Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#F1F1F1;
 }
 a{
 	color:#FF6600;
